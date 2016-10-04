@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The command is very usefull. It does the job for me.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    With quick access to file history, one can quickly revert to proper
+    versions of the code if someting goes wrong during programming. This
+    assumes that programming is frequenty creating new versions of his file
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual commit introduces flexibility which is good to have, but also introduces potential human errors to the equation.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Projects usually involve several files at the same time tht Git calls repository, and Git keeps track of all files at each commmit command. these files are closely related and dependent on each other, and must be traked together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    First of all I need to be able to "Clone" a certain project and move into the directory to run any git comments.
+    Git log will show the history of all commits
+    Git Diff will compare 2 commits that I want to check.
+    I can add colors to the comparison
+    I can also use the --stats to do the comparison for me.
+    I had to be crefull which commit I am comparing. check the dates
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	Knowing that I can revert back anytime to previous version of my code boosts my confidence to try to ways to solve a given problem while isolating the main body of my work from these changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Not sure yet what I should be using Git for. I need first to start a project then use git to manage the versions for me. I can implement it for Arduino, Android apps or Python programming classes.
