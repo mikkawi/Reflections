@@ -1,15 +1,23 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	When I initiate a repository, Git starts trakcing the versions of the file based on each subsequent commit that I will perform. It doesn't perform any commmits on my behalf though. So if I type Git Status immediately after I initate a repository, I won't find any commits.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	The staging area is a pre step to commiting a change. It acts as a way to ensure that only the files we want to commit are now being considred. Given the fact that a working folder might include other files that might not be relevant to the project, or current updates, the staging area act as a method to ensure we are focused on the necessary changed files.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	After updating the files related to one logical change, I can stage the relevant files, then compare it with working directory via using git diff, and compare it with the latest version in the repository by using git diff --staged. After clarifying what needs to be committed, I can go ahead and commit one logical change, with all its relevant files.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	One I want to test new features, create a new variant while keeping the core of the code unchaged, it will be a good idea to branch out then maybe merge at the end.
 
 How do the diagrams help you visualize the branch structure?
+	The diagrams help us understand the concept of reachability. It also shows us the progress of the code development and help us coordinate development through several people. and then decide what to commit after testing seperately the code. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
