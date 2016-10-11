@@ -1,7 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    It's useful to use a remote repository to share the progress or the work with other team members. In a proect where work is split amongs several members it is important to have a common place to store all the work and manage versions. It is also useful to compartimentalize work to test new ideas in isolation of the main code.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
